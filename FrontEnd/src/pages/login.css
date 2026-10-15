@@ -1,0 +1,309 @@
+
+ .parent , .parentlight {
+ background-image: url("/11.jpg");
+   background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+  
+.aparent , .aparentlight {
+ background-image: url("/22.jpg");
+   background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+  
+
+
+
+.login-card {
+  margin: 20px;
+  margin-left: 20%;
+  width: 370px;
+  padding: 15px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #5aa0d6, #2c5c8f);
+  box-shadow: 0 0 0 2px rgba(90, 160, 214, 0.6);
+}
+.alogin-card {
+  margin: 20px;
+  margin-right: 20%;
+  width: 370px;
+  padding: 15px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #5aa0d6, #2c5c8f);
+  box-shadow: 0 0 0 2px rgba(90, 160, 214, 0.6);
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+
+.box1 {
+  background-color: #001959;
+  padding: 30px 25px;
+  border-radius: 20px;
+  color: white;
+}
+.parentlight .box1
+, .aparentlight .box1 {
+  background-color: rgba(95, 180, 225, 1);
+}
+
+.box1 h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.parentlight .box1 h3
+, .aparentlight .box1 h3{
+  color: #001959;
+}
+.box1 label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #dcdcdc;
+}
+.parentlight .box1 label
+, .aparentlight .box1 label{
+  color: #001959;
+}
+.box1 input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #bfc7d9;
+  background: transparent;
+  color: white;
+  padding: 8px 0;
+  outline: none;
+}
+.parentlight .box1 input
+, .aparentlight .box1 input {border-color: #001959;}
+
+.log-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 12px;
+  color: #cfd6e6;
+}
+.parentlight .log-links , .aparentlight .log-links {color: #001959;}
+
+.button1 {
+  display: block;
+  margin: 25px auto 0;
+  width: 160px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #5aa0d6, #3d97ea);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.parentlight .button1 , .aparentlight .button1{color: #001959;}
+.button1:hover {
+   background: white;
+  color: #001b72;
+}
+
+.sign-card {
+  margin: 20px;
+  margin-left: 20%;
+  width: 370px;
+  padding: 15px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #5aa0d6, #2c5c8f);
+  box-shadow: 0 0 0 2px rgba(90, 160, 214, 0.6);
+}
+.asign-card {
+  margin: 20px;
+  margin-right: 20%;
+  width: 370px;
+  padding: 15px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #5aa0d6, #2c5c8f);
+  box-shadow: 0 0 0 2px rgba(90, 160, 214, 0.6);
+}
+
+.box1 input[type="date"] {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #bfc7d9;
+  background: transparent;
+  color: #bfc7d9;
+  padding: 8px 0;
+  outline: none;
+  font-family: inherit;
+}
+.parentlight .box1 input[type="date"] , .aparentlight .box1 input[type="date"] {
+  border-color: #001959; 
+  color: #001959;
+}
+.box1 input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.box1 input::placeholder {
+  color: #bfc7d9;
+}
+.parentlight .box1 input::placeholder , .aparentlight .box1 input::placeholder {
+  color:#00195981;
+}
+
+@media (max-width: 900px) {
+  .login-card {
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    max-width: 370px;
+    padding: 15px;
+  }
+
+  .box1 {
+    padding: 25px 20px;
+  }
+
+  .box1 label {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+
+  .box1 input {
+    padding: 6px 0;
+  }
+
+  .button1 {
+    width: 150px;
+    padding: 9px;
+    font-size: 15px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .login-card {
+    width: 90%;
+    margin: 30px auto;
+    padding: 12px;
+  }
+
+  .box1 {
+    padding: 20px 15px;
+  }
+
+  .box1 h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .box1 label {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .button1 {
+    width: 140px;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .login-card {
+    width: 95%;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .box1 {
+    padding: 15px 12px;
+    border-radius: 15px;
+  }
+
+  .box1 h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  .box1 label {
+    font-size: 11px;
+    margin-top: 8px;
+  }
+
+  .box1 input {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+
+  .log-links {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .button1 {
+    width: 100%;
+    max-width: 130px;
+    padding: 8px;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sign-card {
+    margin: 20px auto;
+    width: 85%;
+    max-width: 370px;
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .sign-card {
+    width: 90%;
+    margin: 30px auto;
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .sign-card {
+    width: 95%;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .box1 input[type="date"] {
+    font-size: 14px;
+  }
+}

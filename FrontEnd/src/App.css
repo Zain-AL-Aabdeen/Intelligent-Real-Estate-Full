@@ -1,0 +1,785 @@
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+  
+}
+.bga , .bgalight
+{
+  background-image: url("/public/bg22.jpg");
+   background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+ .bg , .bglight{
+  background-image: url("/public/bg11.jpg");
+ background-size: cover;
+  background-position: center Right;
+  background-repeat: no-repeat;
+
+  z-index: 0;}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 60px;
+  background-color: #0a2a66;
+  z-index: 3;
+  font-family: 'Cairo', sans-serif;
+}
+
+.navbara {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 60px;
+  background-color: #0a2a66;
+  z-index: 3;
+  font-family: 'Cairo', sans-serif;
+ direction: rtl;
+}
+.bglight .navbar 
+, .bgalight .navbara 
+, .parentlight .navbar
+, .aparentlight .navbara
+, .contact-light .navbar
+, .acontact-light .navbara
+, .parent-formlight .navbar
+, .aparent-formlight .navbara{
+  background-color: rgba(95, 180, 225, 0.6);
+}
+
+.links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  
+}
+.bglight .links a
+, .parentlight .links a
+ , .contact-light .links a
+ , .parent-formlight .links a{
+  color: #0a2a66;
+}
+
+.links a:hover {
+  background: rgba(14, 56, 134, 0.582);
+  border: #2ea3ff solid 2px;
+}
+.bglight .links a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.parentlight .links a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.contact-light .links a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.parent-formlight .links a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.alinks a {
+  
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  
+  
+}
+.bgalight .alinks a
+,.aparentlight .alinks a 
+, .acontact-light .alinks a
+, .aparent-formlight .alinks a{
+  color: #0a2a66;
+}
+
+.alinks a:hover {
+  background: rgba(14, 56, 134, 0.582);
+  border: #2ea3ff solid 2px;
+}
+.bgalight .alinks a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.aparentlight .alinks a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.acontact-light .alinks a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.aparent-formlight.alinks a:hover {
+  background-color:#bdcbe6;
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+}
+.ac {
+  width: 20px;
+  height: 20px;
+}
+#ac
+, #aac {
+ 
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 4px;
+  
+}
+.bglight #ac
+, .bgalight #aac
+, .parentlight #ac
+, .aparentlight #aac
+, .contact-light #ac
+, .acontact-light #aac
+, .parent-formlight #ac
+, .aparent-formlight #aac{
+  color: #0a2a66;
+}
+
+.ac-div {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: #0a2a66;
+  border: #2ea3ff solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 4;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.aac-div {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  background: #0a2a66;
+  border: #2ea3ff solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 4;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+}
+.bglight .ac-div , .bgalight .aac-div , .parentlight .ac-div , .aparentlight .aac-div
+, .contact-light .ac-div , .acontact-light .aac-div
+, .parent-formlight .ac-div , .aparent-formlight .aac-div
+{background-color:rgba(95, 180, 225, 1);
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+color: #0a2a66;}
+.ac-name {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #2ea3ff;
+  word-break: break-all;
+}
+.bglight .ac-name
+, .bgalight .ac-name
+, .parentlight .ac-name
+, .aparentlight .ac-name
+, .contact-light .ac-name
+, .acontact-light .ac-name
+, .parent-formlight .ac-name
+, .aparent-formlight .ac-name{
+  color: white;
+}
+.light {
+  size: 2rem;
+  width: 50px;
+  height: 40px;
+}
+#li {
+  position: absolute;
+  top: 60px;
+  z-index: 4;
+  color: white;
+  background-color: #0a2a6600;
+}
+#ali {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  z-index: 4;
+  color: white;
+  background-color: #0a2a6600;
+}
+.bgalight #ali 
+, .bglight #li
+, .parentlight #li
+, .aparentlight #ali
+, .acontact-light #ali
+, .contact-light #li 
+, .parent-formlight #li
+, .aparent-formlight #ali{
+  background-color: #7aa3f000;
+  color: #0a2a66;
+}
+#Button {
+  padding: 5px;
+  border-radius: 15px;
+  background:  rgb(14, 56, 134);
+  color: white;
+  font-size: medium;
+  border: #2ea3ff solid 2px;
+  position: absolute;
+  top: 12%;
+left: 92%;
+width: 6%;
+}
+
+
+#aButton {
+  padding: 5px;
+ border-radius: 15px;
+  background:  rgb(14, 56, 134);
+  color: white;
+  font-size: medium;
+  border: #2ea3ff solid 2px;
+  position: absolute;
+  top: 12%;
+left: 1%;
+width: 6%;
+}
+.bglight #Button 
+, .bgalight #aButton 
+,.parentlight #Button
+,.aparentlight #aButton
+, .contact-light #Button
+, .acontact-light #aButton
+, .parent-formlight #Button
+, .aparent-formlight #aButton{
+  background:rgba(95, 180, 225, 0.6);
+  border: rgba(14, 56, 134, 0.582) solid 2px;
+  color: #0a2a66;
+}
+
+.overlay {
+  padding: 60px 30px;
+  background-color: #0a2a66;
+  opacity: 90%;
+  border-bottom: #2ea3ff solid 3px;
+  border-right: #2ea3ff solid 3px;
+  width: 80%;
+  height: 50%;
+  border-radius: 0 0 90% 0 /0 0 100% 0 ;
+}
+
+.aoverlay 
+ {
+  z-index: 1;
+  padding: 60px 30px;
+  background-color: #0a2a66;
+  opacity: 90%;
+ position: relative;
+ left: 20%;
+  width: 80%;
+  height: 50%;
+  border-radius: 0 0 0 90%/0 0 0 100%;
+   border-bottom: #2ea3ff solid 3px;
+  border-left: #2ea3ff solid 3px;
+}
+.bglight .overlay {
+   background-color: rgba(95, 180, 225, 0.6);
+  border-bottom: rgba(14, 56, 134, 0.582) solid 3px;
+  border-right: rgba(14, 56, 134, 0.582) solid 3px;
+  color: #0a2a66;
+}
+ .bgalight .aoverlay {
+  background-color: rgba(95, 180, 225, 0.6);
+  border-bottom: rgba(14, 56, 134, 0.582) solid 3px;
+  border-left: rgba(14, 56, 134, 0.582) solid 3px;
+  color: #0a2a66;
+}
+
+.overlay h1 {
+  font-size: 25px;
+}
+
+.overlay h2 {
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.overlay p {
+  margin-top: 15px;
+  line-height: 1.6;
+  
+}
+.aoverlay h1 {
+  font-size: 25px;
+ 
+  direction: rtl;
+}
+
+.aoverlay h2 {
+  font-weight: normal;
+  margin-top: 30px;
+  
+  direction: rtl;
+}
+
+.aoverlay p {
+  margin-top: 25px;
+  line-height: 1.6;
+ 
+  direction: rtl;
+}
+
+.services {
+  background: #0a2a66;
+  margin: 40px 20px;
+  width: 65%;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  border: #2ea3ff solid 3px;
+
+}
+.servicesa {
+  background: #0a2a66;
+  margin: 40px 40px;
+  width: 65%;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 30%;
+border: #2ea3ff solid 3px;
+}
+.bgalight .servicesa 
+, .bglight .services {
+  background: rgba(95, 180, 225, 1);
+  border: rgba(14, 56, 134, 0.582) solid 3px;
+  color: #0a2a66;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+}
+.grida {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.carda {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #0a2a66;
+}
+.icona {
+  font-size: 30px;
+  color: #0a2a66;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px 50px;
+  margin-bottom: 0;
+  background-color: #0a2a66;
+  margin-top: auto;
+  gap: 30px;
+  font-family: 'Cairo', sans-serif;
+  
+}
+.footera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px 50px;
+  margin-bottom: 0;
+  background-color: #0a2a66;
+  
+  margin-top: auto;
+  gap: 30px;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  
+}
+.bglight .footer
+, .bgalight .footera 
+, .parentlight .footer
+, .aparentlight .footera
+, .contact-light .footer
+, .acontact-light .footera
+, .parent-formlight .footer
+, .aparent-formlight .footera{
+  background-color: rgba(95, 180, 225, 1);
+  color: #0a2a66;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.subscribe-label {
+  white-space: nowrap;
+  font-size: 1.1rem;
+}
+
+.subscribe input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #2ea3ff;
+  color: white;
+  
+}
+.bgalight .subscribe button
+, .bglight .subscribe button
+, .parentlight .subscribe button
+, .aparentlight .subscribe button 
+, .contact-light .subscribe button
+, .acontact-light .subscribe button
+, .parent-formlight .subscribe button
+, .aparent-formlight .subscribe button{
+  background-color: #0a2a66;
+  
+}
+.bglight .pa 
+, .bgalight .pa
+, .parentlight .pa
+, .aparentlight .pa
+, .contact-light .pa
+, .acontact-light .pa
+, .parent-formlight .pa
+, .aparent-formlight .pa
+{color: #0a2a66;}
+.bglight .img ,
+.bgalight .img
+, .parentlight .img, .aparentlight .img ,
+.contact-light .img , .acontact-light .img
+, .parent-formlight .img , .aparent-formlight .img {color:#0a2a66;
+background-color: #0a2a66;
+padding: 2px;}
+.social {
+  margin-top: 20px;
+  display: flex;
+  gap: 18px;
+}
+
+.social svg,
+.footer-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+
+   
+
+
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+#root {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .navbar,
+  .navbara {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 15px;
+  }
+
+  .links,
+  .alinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .links a,
+  .alinks a {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  #Button,
+  #aButton {
+    position: static;
+    display: block;
+    width: 180px;
+    margin: 15px auto;
+  }
+
+  .overlay,
+  .aoverlay {
+    width: 100%;
+    height: auto;
+    left: 0;
+    padding: 40px 20px;
+  }
+
+  .services,
+  .servicesa {
+    width: 90%;
+    margin: 30px auto;
+    left: 0;
+  }
+
+  .grid,
+  .grida {
+    grid-template-columns: 1fr;
+  }
+
+  .footer,
+  .footera {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subscribe input {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .ac-div {
+  position: absolute;
+  top: 110px;
+  right: 20px;
+  width: 200px;
+  
+  font-size: medium;
+}
+.aac-div {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  
+  width: 200px;
+  
+  font-size: medium;
+}
+#li {
+  position: absolute;
+  top: 40px;
+}
+#ali {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar,
+  .navbara {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .links,
+  .alinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .links a,
+  .alinks a {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  #Button,
+  #aButton {
+    position: static;
+    width: 180px;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .overlay,
+  .aoverlay {
+    width: 100%;
+    height: auto;
+    left: 0;
+    padding: 30px 20px;
+    border-radius: 0;
+  }
+
+  .services,
+  .servicesa {
+    width: 90%;
+    margin: 20px auto;
+    left: 0;
+  }
+
+  .grid,
+  .grida {
+    grid-template-columns: 1fr;
+  }
+
+  .footer,
+  .footera {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subscribe input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  .overlay h1,
+  .aoverlay h1 {
+    font-size: 1.4rem;
+  }
+
+  .overlay h2,
+  .aoverlay h2 {
+    font-size: 1.1rem;
+  }
+
+  .overlay p,
+  .aoverlay p {
+    font-size: 0.95rem;
+  }
+
+  .services,
+  .servicesa {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .card,
+  .carda {
+    padding: 15px;
+  }
+
+  .subscribe input {
+    width: 90%;
+  }
+
+  .subscribe button {
+    width: 90%;
+  }
+
+  .social svg,
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+  .ac-div {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 150px;
+  font-size: small;
+  
+}
+.aac-div {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 150px;
+  font-size: small;
+}
+#aac {
+ 
+  position: absolute;
+  top: 110px;
+right: 90px;}
+#li {
+  position: absolute;
+  top: 100px;
+  
+}
+#ali {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+}
